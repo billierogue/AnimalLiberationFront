@@ -1,0 +1,657 @@
+/* FONTS ------------- */
+@font-face {
+    font-family: "acid" ;
+    src: url(../fonts/ACID_REF.TTF);
+}
+
+@font-face {
+    font-family: "army-rust" ;
+    src: url(../fonts/ARMY\ RUST.ttf);
+}
+
+@font-face {
+    font-family:"montserrat-regular";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family:"montserrat-hairline";
+    src: url(../fonts/Montserrat-Hairline.otf);
+}
+
+/* STRUCTURE & CSS ------------- */
+
+html{
+    font-family: sans-serif;
+    color: black;
+}
+
+body{
+    margin: 0;
+  }
+
+p{
+    font-family: "montserrat-hairline";
+}
+
+h1{
+    font-family: "acid";
+    font-size: 93px;
+    font-weight: 200;
+}
+h2{
+    font-family: "acid";
+    font-size: 68px;
+    font-weight: 200; 
+}
+
+/* navbar ------------- */
+.Navbar{
+    font-family: "montserrat-regular";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: rgb(221 226 207);
+    height: 71px;
+}
+
+.Logo-Nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* nav bar color code: 221 226 207 */
+
+/* HOME HERO------------- */
+#Home-Page{
+    display: flex;
+    flex-direction: column;  
+}
+#hero-image {
+    height: 490px;
+    width: 100%;
+    object-fit: cover;
+  
+}
+.home-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+#slogan{
+    color: rgb(153, 167, 112);
+    font-family: "army-rust";
+    font-size: 132px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+#home-paragraph{
+    font-size: 19px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#donate-button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #E65050;
+    font-family:"army-rust";
+    font-size: 75px;
+    text-align: center;
+    line-height: 0.5em;
+    color: white;
+    width: 280px;;
+    height: 56px;
+    border-radius: 30px;
+    border: none;
+}
+
+/* JOIN US------------- */
+
+#Join-Page{
+    background-color: rgb(153, 167, 112);
+    display: flex;
+    flex-direction: column;
+}
+
+#rally {
+    width: 100%;
+    height: 400px;
+    object-position: 20% 90%;
+    object-fit: cover;
+   clip-path: polygon(80% 0%, 0% 0%, 0% 100%);
+}
+
+#join{
+    position: relative;
+    margin-left: 75%;
+    margin-top: -300px;
+    margin-right: 104px;
+}
+
+#the-cause{
+    position: relative;
+    margin-left: 72%;
+    margin-top: -2%;
+}
+
+#join-paragraph{
+    margin-right: 51px;
+    margin-left: 300px;
+    font-family: "montserrat-hairline";
+    text-align: right;
+    width: 874;
+    
+}
+#join-paragraph-2{
+    margin-right: 51px;
+    margin-left: 300px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.join-us-pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: right; 
+    gap: 30px;
+    margin-right: 82px;
+    margin-bottom: 45px;
+    margin-top: 42px;
+}
+
+#mohawk {
+    height:270px ;
+    width: 323px;
+    object-fit: cover;
+}
+#cow{
+    height:270px;
+    width: 323px;
+    object-fit: cover;
+    object-position: 0% 100%;
+}
+
+#furface {
+    height: 270px;
+    width: 323px;
+    object-fit: cover;
+}
+
+/* DIARIES ------------- */
+
+#Diaries-Page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.books2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    height: 100%;
+    
+}
+.buy-now-button{
+    background-color: rgb(185, 93, 83);
+    margin-bottom: 20px;
+    font-family:"army-rust";
+    font-size: 29px;
+    line-height: 0.5em;
+    color: white;
+    width: 144px;;
+    height: 34px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#DIARIES{
+    color: #9F2214;
+    margin-top: 56px;
+    margin-left:38px;
+}
+#broken-lab-raids{
+    font-family: "montserrat-regular";
+    font-size: 28px;
+    margin-left:38px;
+}
+#diaries-paragraph{
+    margin-left:38px;
+    width: 492px;
+    height: 115px;
+}
+#diaries-paragraph-2{
+    margin-left:38px;
+    width: 492px;
+    height: 209px;
+    font-family: "montserrat-hairline";
+}
+
+.Diaries-Images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    gap: 66px;
+    margin-top: 88px;
+}
+
+#underground:hover{
+    transform: scale(1.5);
+}
+
+#underground {
+    transition: transform 0.75s;
+}
+#vegan-militant:hover{
+    transform: scale(1.5);
+}
+
+#vegan-militant {
+    transition: transform 0.75s;
+}
+
+#liberate {
+    transition: transform 0.75s
+}
+
+#liberate:hover{
+    transform: scale(1.5);
+}
+.vol-1-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-evenly;
+    width: 227px;
+    height: 269px;
+    background-color:#FFF7F7;
+    border: solid 1px #707070;
+    margin-top: 40px;
+   
+}
+.militant-vegan-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 227px;
+    height: 269px;
+    background-color:#FFF7F7;
+    border: solid 1px #707070;
+    margin-top: 40px;
+   
+}
+.liberate-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 227px;
+    height: 269px;
+    background-color:#FFF7F7;
+    border: solid 1px #707070;
+    margin-top: 40px;
+   
+}
+
+.book-prices{
+font-size: 19px;
+margin-bottom: -10px;
+}
+.book-descriptions-container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;   
+    height: 100%;
+    gap: 16px;
+    margin-left: 10px;
+}
+
+.book-descriptions {
+    font-size: 10px;
+    height: 110px;
+    width: 185px;
+    margin-bottom: 0px;
+    text-align:justify;
+}
+
+.books {
+    width: 600px;
+}
+/* SHOP ------------- */
+
+#Shop-Page {
+    display: flex;
+    flex-direction: column;
+}
+
+.Shop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cart {
+    width: 50px;
+    height: 50px;
+    margin-top: 19px;
+    margin-right: 36px;
+}
+#SHOP{
+    margin-top: 45px;
+    margin-left: 60px;
+}
+
+#our-best-sellers{
+    color: rgb(172, 64, 51);
+    font-family: "acid";
+    margin-top: 80px;
+    text-align: center;
+    margin-right: 132px;
+    
+}
+.shirts {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.unisex {
+    height: 300px;
+    width: 300px;
+    background-image: url("..//images/merch/shirt.jpg");
+    background-size: cover;
+    background-position: 80% 50%;
+}
+.unisex:hover {
+    background-image: url("../images/merch/shirt-rollover.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.totebag{
+    height: 300px;
+    width: 300px;
+    background-image: url("..//images/merch/totebag\ white.jpg");
+    background-size: cover;
+}
+.totebag:hover{
+    background-image: url("../images/merch/totebag\ black.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.sticker-1{
+    height: 300px;
+    width: 300px;
+    background-image: url("..//images/merch/sticker.jpeg");
+    background-size: cover;
+}
+.sticker-1:hover{
+    background-image: url("../images/merch/sticker-rollover.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.sticker-2{
+    height: 300px;
+    width: 300px;
+    background-image: url("..//images/merch/sticker2.jpg");
+    background-size: cover;
+}
+.sticker-2:hover{
+    height: 300px;
+    width: 300px;
+    background-image: url("..//images/merch/sticker2-rollover.jpg");
+    background-size: cover;
+}
+
+.shirt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.shirt-prices {
+    margin-bottom: 5px;
+    font-family: "montserrat-regular";
+}
+
+.shirt-description {
+    font-size: 14px;
+    font-family: "montserrat-regular";
+    height: 36px;
+    width: 205px;
+    text-align: center;
+}
+#view-more-button{
+    display: block;
+    margin: auto;
+    background-color: rgb(185, 93, 83);
+    margin-bottom: 55px;
+    font-family:"army-rust";
+    font-size: 42px;
+    line-height: 0.5em;
+    color: white;
+    width: 235px;;
+    height: 61px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(130, 147, 81);
+    cursor: pointer;
+}
+
+/* GALLERY ------------- */
+#Gallery-Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(92, 89, 89);
+    height: 730px;
+    width: 100%;
+}
+
+.gallery {
+    font-size: 40px;
+    color: white;
+}
+
+.gallery-grid{
+width: 90%;
+height: 550px;
+display: grid;
+grid-template-columns: 10fr 7fr 10fr ;
+grid-template-rows: 360px 180px;
+
+gap: 17px;
+}
+
+#fanart {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#lamb {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#dolphin {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#pig {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#bird-boy {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pig-container {
+    height: 100%;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+}
+
+
+/* FOOTER ------------- */
+li{
+    list-style: none;
+    font-family: "montserrat-hairline";
+}
+
+ul {
+    padding: 0;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 195, 195);
+    height: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.partnerships {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#doggie{
+  height: 190px;
+  width: 275px;
+  object-fit: cover;
+  margin-right: 31px;
+  margin-top: 45px;
+}
+
+.footer-headings{
+    font-family: "montserrat-regular";
+    font-size: 19px;
+    
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;   
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;   
+    margin-bottom: 22px;
+}
+#contact {
+    font-size: 16px;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+}
+
+#facebook{
+    width: 10.23px;
+    height: 21.81px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+#twitter{
+    width: 23.88px;
+    height: 22px;
+    object-fit: cover; 
+}
+#insta{
+    width: 23.16px;
+    height: 23.18px;
+    object-fit: cover; 
+}
+
+.line {
+    display: block;
+    margin: auto;
+    height: 22px;
+    width:90%;
+    border-bottom: 3px solid #707070;
+}
+#copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #00000084;
+   
+    
+}
+
+#privacy-terms{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #00000084;
+    
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
